@@ -77,7 +77,7 @@ async function getDepartmentId(department) {
   return departmentIdData[0].id;
 }
 
-// export all functions for use in the index.js file 
+// export all functions for use in the server.js file 
 module.exports = {
   getNames: getNames,
   getRoles: getRoles,
