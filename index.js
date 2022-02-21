@@ -35,7 +35,7 @@ const starterQuestion = {
 main();
 
 // main function connects to database to ask user to selecct an option 
-// check for errors and terminal connection afterwards
+// check for errors and terminate connection afterwards
 async function main() {
   try {
     await connect();

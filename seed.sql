@@ -4,17 +4,17 @@ VALUES ('Jason', 'Reddington', 1, 3);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ('Kimberly', 'Perry', 2, 1);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Lily', 'Porter', 3, null);
+VALUES ('Oscar', 'Wilde', 3, null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Zak', 'Baker', 4, 3);
+VALUES ('James', 'Joyce', 4, 3);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Trina', 'Yen', 5, null);
+VALUES ('Clarice', 'Lispector', 5, null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Ivan', 'Brown', 6, null);
+VALUES ('Jane', 'Austen', 6, null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Peter', 'Williams', 7, 6);
+VALUES ('George', 'Orwell', 7, 6);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Robert', 'Gray', 3, 2);
+VALUES ('Bell', 'Hooks', 3, 2);
 
 
 -- insert the values into role table 

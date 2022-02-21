@@ -2,7 +2,7 @@
   "name": "where-are-my-employees-ohya",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/sabrtraveler/where-are-my-employees-ohya#readme",
   "dependencies": {
+    "chalk": "^5.0.0",
     "console.table": "^0.10.0",
     "inquirer": "^8.2.0",
-    "mysql2": "^2.3.3",
-    "mysql2-promise": "^0.1.4"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   }
 }
