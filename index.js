@@ -135,7 +135,7 @@ async function viewEmployeesByDepartment() {
   const departments = await getData.getDepartments();
   const answer = await inquirer.prompt({
     name: "department",
-    message: "Which department would you like to view?",
+    message: "What department would you like to see?",
     type: "list",
     choices: departments,
   });
@@ -164,7 +164,7 @@ async function viewEmployeesByManager() {
   const managers = await getData.getNames();
   const answer = await inquirer.prompt({
     name: "manager",
-    message: "Which manager's employees do you want to view?",
+    message: "Which manager's employees do you want to see?",
     type: "list",
     choices: managers,
   });
@@ -427,7 +427,7 @@ async function utilizedBudget() {
   const departments = await getData.getDepartments();
   const answer = await inquirer.prompt({
     name: "department",
-    message: "Which department's utilized budget would you like to view?",
+    message: "Which department's utilized budget would you like to see?",
     type: "list",
     choices: departments,
   });
